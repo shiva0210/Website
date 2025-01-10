@@ -1,0 +1,253 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav-bar{
+    display: flex;
+    padding-left: 1000px;
+}
+:root{
+    scroll-behavior: smooth;
+}
+ul{
+    display: flex;
+    gap: 20px;
+}
+
+
+
+
+#Home{
+    height: 100vh;
+    width: 100vw;
+    background-color:black;
+    box-sizing: border-box;
+    
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    background-color: gray;
+    border-radius: 3px;
+    top:16rem;
+    left:-13rem;
+    padding: 5px;
+}
+
+i{
+   background-color: gray;
+}
+.icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    gap:15px;
+}
+.icon:hover{
+    transform: scale(1.05);
+    transform: translate(14rem);
+    background-color: gray;
+}
+.profile{
+    /* border: 1px  solid black; */
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+}
+.discription{
+    /* border: 1px  solid rgb(220, 25, 25); */
+    width: 25%;
+    padding-top: -20px;
+    padding-left: 300px;
+}
+.img1{
+    /* border: 1px  solid rgb(220, 15, 117); */
+    height: 300px;
+    width: 400px;
+    object-fit:cover;
+    margin-left: 100px;
+    border-radius: 10px;
+    
+}
+.B{
+    color: white;
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.a{
+    color:gray;
+    margin-top: 20px;
+}
+.butt1{
+    height: 45px;
+    width: 100px;
+    background-image: linear-gradient( rgb(116, 185, 234),rgb(4, 78, 198)) ;
+    border-radius: 5px;
+    margin-top:22px;
+    font-size: medium;
+
+}
+
+
+
+
+
+
+#about{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(rgba(51, 54, 50, 0.918),black,black);
+    box-sizing: border-box; 
+}
+.info{
+    /* border: 2px solid palevioletred; */
+    width: 700px;
+    padding-left: 400px;
+    padding-top: 100px;
+}
+.abo{
+    color: aliceblue;
+    padding: 20px;
+    padding-bottom: 40px;
+}
+.paragarph{
+    padding-top: 20px;
+}
+
+
+
+
+#portfolio{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(rgba(91, 91, 143, 0.897),black,rgba(28, 28, 29, 0.897));
+
+}
+.block-1{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding-left: 280px;
+}
+.block-2{
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+    justify-content: center;
+    padding-left: 280px;
+}
+.box{
+    height: 200px;
+    width: 280px;
+    background-color: aqua;
+    gap: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 5px gray;
+}
+.photo{
+    height: 0.1px;
+    width: 280px;
+}
+.image{
+    height: 150px;
+    width: 280px;
+    border-radius: 10px;
+    margin-left: 0px;
+}
+.text{
+    height: 50px;
+    width: 136px;
+    border-radius: 5px;
+    padding-top: 160px;
+    padding-left: 15px;
+}
+.tex{
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 10px;
+}
+.tex:hover{
+    background-color: rgb(48, 38, 38);
+}
+
+
+
+
+
+
+
+
+#experience{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(rgba(20, 6, 70, 0.596),black,black);
+    box-sizing: border-box;
+}
+.box1{
+    height: 200px;
+    width: 280px;
+    background-color: rgb(13, 15, 15);
+    gap: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 5px orange;
+}
+.box2{
+      height: 200px;
+    width: 280px;
+    background-color: rgb(17, 19, 19);
+    gap: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 5px rgb(22, 22, 214);
+}
+.box3{
+    height: 200px;
+    width: 280px;
+    background-color: rgb(23, 24, 24);
+    gap: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 5px yellow;
+}
+.box4{ 
+    height: 200px;
+    width: 280px;
+    background-color:black;
+    gap: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px blueviolet;
+}
+.box5{
+    height: 200px;
+    width: 280px;
+    background-color: rgb(3, 3, 3);
+    gap: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 5px aqua;
+}
+.box6{
+    
+    height: 200px;
+    width: 280px;
+    background-color: rgb(6, 7, 7);
+    gap: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 5px rgb(161, 13, 62);
+}
+.text1{
+    height: 50px;
+    width: 136px;
+    border-radius: 5px;
+    padding-top: 160px;
+    padding-left: 100px;
+    color: aliceblue;
+    font-size: medium;
+}
+.css{
+    padding-left: 20px;
+}
+.photo:hover{
+    transform: scale(1.05);
+}
